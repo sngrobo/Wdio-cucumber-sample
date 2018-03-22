@@ -1,0 +1,23 @@
+{
+  "name": "javascriptassignment",
+  "version": "1.0.0",
+  "description": "This is the Javascript project with WDIO using cucumber framework ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "selenium-standalone start",
+    "selenium": "selenium-standalone"
+  },
+  "author": "Renu Tanwar",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "wdio-cucumber-framework": "^1.1.0",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "webdriverio": "^4.12.0"
+  },
+  "dependencies": {
+    "chromedriver": "^2.36.0"
+  }
+}
